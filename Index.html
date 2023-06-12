@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script11.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>KR</title>
+  </head>
+  <body>
+    <div class="block">
+    <section class="dblock1">
+      <h1>
+        Strelnikov & Savostenko
+      </h1>
+    </section>
+    <section class="dblock2">
+      <label for="marka">Введите бренд :</label>
+      <input
+        name="input"
+        list="brand"
+        id="marka"
+        type="text"
+        placeholder="Covergirl"
+        autocomplete="on"
+      />
+      <datalist id="brand">
+        <option value="Almay"></option>
+        <option value="Anna Sui"></option>
+        <option value="Annabelle"></option>
+        <option value="Benefit"></option>
+        <option value="Burts Bees"></option>
+        <option value="Butter London"></option>
+        <option value="Cargo Cosmetics"></option>
+        <option value="China Glaze"></option>
+        <option value="Covergirl"></option>
+        <option value="Dalish"></option>
+        <option value="Dr. Hauschka"></option>
+        <option value="e.l.f."></option>
+        <option value="Essie"></option>
+        <option value="Iman"></option>
+        <option value="L'Oreal"></option>
+        <option value="Marcelle"></option>
+        <option value="Maybelline"></option>
+        <option value="Milani"></option>
+        <option value="Mineral Fusion"></option>
+        <option value="Misa"></option>
+        <option value="Mistura"></option>
+        <option value="Moov"></option>
+        <option value="NYX"></option>
+        <option value="Orly"></option>
+        <option value="Pacifica"></option>
+        <option value="Physicians Formula"></option>
+        <option value="Piggy Paint"></option>
+        <option value="Pure Anada"></option>
+        <option value="Revlon"></option>
+        <option value="Salon Perfect"></option>
+        <option value="Sante"></option>
+        <option value="Sinful Colours"></option>
+        <option value="Smashbox"></option>
+        <option value="Stila"></option>
+        <option value="Suncoat"></option>
+        <option value="Wet n' Wild"></option>
+        <option value="Zorah"></option>
+      </datalist>
+
+      <br />
+      <label for="product">Введите тип продукта :</label>
+      <input
+        name="input"
+        list="product_type"
+        id="product"
+        type="text"
+        placeholder="Начните ввод на латинице"
+        autocomplete="on"
+      />
+      <datalist id="product_type">
+        <option value="blush"></option>
+        <option value="bronzer"></option>
+        <option value="eyebrow"></option>
+        <option value="eyeliner"></option>
+        <option value="eyeshadow"></option>
+        <option value="foundation"></option>
+        <option value="lip_liner"></option>
+        <option value="lipstick"></option>
+        <option value="mascara"></option>
+        <option value="nail_polish"></option>
+      </datalist>
+      <div class="bot">
+        <button type="button" class="btn-primary" onclick="krData(brand_item, type_item)">
+          Выполнить запрос
+        </button>
+      </div>
+    </section>
+  </div>
+  </body>
+</html>
